@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" >
+    <test name="IOSTest">
+        <classes>
+            <class name="com.automation.tests.TC002_VerifyHomePageDetailsMobile"/>
+            <class name="com.automation.tests.TC003_SearchHomePageTestMobile"/>
+        </classes>
+    </test> <!-- Test1 -->
+    <test name="AndroidTest">
+        <classes>
+            <class name="com.automation.tests.TC002_VerifyHomePageDetailsMobile"/>
+            <class name="com.automation.tests.TC003_SearchHomePageTestMobile"/>
+        </classes>
+    </test> <!-- Test2 -->
+    <test name="FirefoxTest">
+        <classes>
+            <class name="com.automation.tests.TC001_VerifyHomePageDetailsWeb"/>
+            <class name="com.automation.tests.TC004_SearchHomePageTestWeb"/>
+        </classes>
+    </test> <!-- Test3 -->
+    <test name="ChromeTest">
+        <classes>
+            <class name="com.automation.tests.TC001_VerifyHomePageDetailsWeb"/>
+            <class name="com.automation.tests.TC004_SearchHomePageTestWeb"/>
+        </classes>
+    </test> <!-- Test4 -->
+</suite> <!-- Suite -->
