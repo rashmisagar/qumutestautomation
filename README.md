@@ -32,4 +32,4 @@ Below are the steps to execute the testNG.xml file from an IDE or from terminal.
   
   d. Run command
   
-      mvn clean test -DsuiteXmlFile=testng.xml
+      mvn clean install
